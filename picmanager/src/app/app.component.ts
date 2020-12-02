@@ -6,8 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  photos = 
-  [
+  photos = [
     {
       url: 'http://www.ghibli.jp/gallery/howl012.jpg',
       description: 'fogo'
@@ -15,6 +14,10 @@ export class AppComponent {
     {
       url: 'http://www.ghibli.jp/gallery/howl016.jpg',
       description: 'cozinhando com fogo'
+    },
+    {
+      url: 'http://www.ghibli.jp/gallery/howl041.jpg',
+      description: 'a single fires with one girl'
     }
   ];
 }
